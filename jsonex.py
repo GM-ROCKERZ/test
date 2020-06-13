@@ -21,8 +21,8 @@ people_string = '''
 }
 '''
 data= json.loads(people_string)
-print(type(data['People']))
-# print(data)
+# print(type(data['People']))
+# print(data['People'])
 for person in data['People']:
     del person['phone']
 

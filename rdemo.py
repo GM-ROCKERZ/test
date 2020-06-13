@@ -1,6 +1,9 @@
 import requests
 
-payload = {'page':2, 'count':25}
-r = requests.get('https://httpbin.org//get', params=payload)
+# payload = {'username':'gopal', 'password':'testing'}
+r = requests.get('https://httpbin.org/basic-auth/gopal/testing',auth=('gopal','testing'))
 
-print(r.text) 
+# r_dict = r.json()
+
+# print(r_dict['form'])
+print(r)
