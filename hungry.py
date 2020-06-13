@@ -8,5 +8,5 @@ if hungry == "yes" and hungry=="y":
 else:
     thirsty=input("are you thirsty!")
     if thirsty=="yes":
-         print("drink water buddy!!")
+         print("drink coke buddy!!")
          print("Drink soda as well")
