@@ -5,6 +5,8 @@ if hungry == "yes" and hungry=="y":
     print("eat pizza!")
     print("eat fries")
     print("eat burger")
+elif hungry=="No":
+	print("go fuck yourselves")
 else:
     thirsty=input("are you thirsty!")
     if thirsty=="yes":
