@@ -11,4 +11,3 @@ else:
     thirsty=input("are you thirsty!")
     if thirsty=="yes":
          print("drink coke buddy!!")
-         print("Drink soda as well")
